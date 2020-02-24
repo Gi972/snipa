@@ -1,10 +1,6 @@
 import { Component } from "react";
-import { Navigation } from "./navigation";
-
-export const Sentences = ({ sentences = [] }: { sentences?: string[] }) => {
-  const sentence = (sentence, index) => <li key={index}>{sentence}</li>;
-  return <ul>{sentences.map(sentence)}</ul>;
-};
+import { Navigation } from "../atoms/navigation";
+import { Sentences } from "../atoms/sentences";
 
 export default class Catalog extends Component {
   render() {

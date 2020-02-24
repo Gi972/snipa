@@ -1,6 +1,6 @@
 import { Component } from "react";
-import { Article } from "./catitem";
-import { Navigation } from "./navigation";
+import { Article } from "../atoms/catitem";
+import { Navigation } from "../atoms/navigation";
 
 export default class Home extends Component {
   render() {
